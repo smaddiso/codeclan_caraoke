@@ -1,9 +1,11 @@
 class Guest
 
-attr_reader :name
+attr_reader :name, :age, :money
 
-def initialize(name)
+def initialize(name, age, money)
   @name = name
+  @age = age
+  @money = money
 end
 
 end
